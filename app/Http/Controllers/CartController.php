@@ -163,7 +163,7 @@ class CartController extends Controller
     {
 
         $validator = Validator::make($request->all(), [
-            'products' => 'required',
+            'carts' => 'required',
             'payment_method' =>'required',
             'shipment_type' =>'required',
             'address' =>'required',
